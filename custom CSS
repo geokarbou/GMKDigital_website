@@ -1,0 +1,184 @@
+/*** Hide Sidebar for single project posts ***/
+.single-project  #sidebar {display:none;}
+/*** Take out the divider line between content and sidebar ***/
+#main-content .container:before {background: none;}
+/*** hide the skills crap from project posts ***/
+.et_project_meta_title {display:none;}
+
+#et-main-area #main-content .container #content-area {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#et-main-area #main-content .container #content-area #left-area {
+	margin-right: 0;
+}
+/*** testing media queries, responsive design from Git ***/
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+.et_pb_pagebuilder_layout.single.et_full_width_page #page-container .et_pb_row {
+width: 60%;
+max-width: 740px;
+line-height: 1.4;
+letter-spacing: 0;
+font-weight: 400;
+font-style: normal;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+}
+#main-content .container {
+width: 60%;
+max-width: 740px;
+line-height: 1.4;
+letter-spacing: 0;
+font-weight: 400;
+font-style: normal;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+}
+.single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper {
+width: 80%;
+line-height: 1.4;
+letter-spacing: 0;
+font-weight: 400;
+font-style: normal;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+}
+p {
+line-height: 2.0;
+}
+h1 {
+padding-bottom: 30px;
+}
+h2 {
+padding-bottom: 30px;
+}
+h3 {
+padding-bottom: 30px;
+}
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+.et_pb_pagebuilder_layout.single.et_full_width_page #page-container .et_pb_row {
+width: 60%;
+max-width: 740px;
+line-height: 1.4;
+letter-spacing: 0;
+font-weight: 400;
+font-style: normal;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+}
+#main-content .container {
+width: 60%;
+max-width: 740px;
+line-height: 1.4;
+letter-spacing: 0;
+font-weight: 400;
+font-style: normal;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+}
+.single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper {
+width: 80%;
+line-height: 1.4;
+letter-spacing: 0;
+font-weight: 400;
+font-style: normal;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+}
+p {
+line-height: 2.0;
+}
+h1 {
+padding-bottom: 30px;
+}
+h2 {
+padding-bottom: 30px;
+}
+h3 {
+padding-bottom: 30px;
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+}
+
+
+.single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper {
+	width: 80%;
+	line-height: 1.4;
+	letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+p {
+    line-height: 2.0;
+}
+h1 {
+	padding-bottom: 30px;
+}
+h2 {
+	padding-bottom: 30px;
+}
+h3 {
+	padding-bottom: 30px;
+}
+#footer-widgets {
+    padding: 0% 0 0;
+    padding-top: 0%;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.et_pb_gutters3 .footer-widget {
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+.et_pb_gutters3.et_pb_footer_columns4 .footer-widget {
+    width: 40%;
+}
